@@ -58,7 +58,6 @@ public class GameLevelOneActivity extends AppCompatActivity {
             Toast.makeText(GameLevelOneActivity.this, "Great! Find another one", Toast.LENGTH_SHORT).show();
             bonusIcon--;
             clickedView.setClickable(false);
-            System.out.println(bonusIcon);
         } else {
             Intent intentLevelTwo = new Intent(GameLevelOneActivity.this, GameLevelTwoActivity.class);
             startActivity(intentLevelTwo);
